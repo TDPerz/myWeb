@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Proyectos/Proyectos.css">
+    <%- include('Partial/essencial')%>
+</head>
+<body onscroll="getoscroll()" class="background-Body" style="background: url(https://res.cloudinary.com/sekaijk/image/upload/v1621612818/WebSite/BackGroundWeb_shqgwn.png) no-repeat center center fixed;
+background-size: cover;">
+    <%- include('Partial/navbar')%>
+    <img src="https://res.cloudinary.com/sekaijk/image/upload/v1621612820/WebSite/Cabezera_s9ekfg.png" alt="" class="img-class">
+    <div class="bg-dark text-white container container2">
+        <h1 class="text-center">Proyectos</h1>
+        <div class="card-deck">
+            <%for(var i = 0; i < Proyectos.length; i++){%>
+              <div class="card bg-dark bg-dark text-white">
+                <img src="<%=Proyectos[i].preview%>" class="card-img img-card" alt="...">
+                <div class="card-body card-img-overlay back-body">
+                    <h5><%=Proyectos[i].titulo%></h5>
+                    <p class="card-text"><%=Proyectos[0].descripción%></p>
+                    <a href="/project/<%=Proyectos[i].index%>" class="btn btn-dark" type="button">Saber mas</a>
+                </div>
+              </div>
+            <%}%>
+          </div>
+    </div>
+</body>
+</html>

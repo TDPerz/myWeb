@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/proyecto/proyecto.css">
+    <script src="/js/post/pos.js"></script>
+    <%- include('Partial/essencial')%>
+</head>
+<body onload="load()" onscroll="getoscroll()" class="background-Body" style="background-image: url(https://res.cloudinary.com/sekaijk/image/upload/v1621612818/WebSite/BackGroundWeb_shqgwn.png);">
+    <%- include('Partial/navbar')%>
+    <img class="img-Prev" src="<%=data.preview%>" alt="preview">
+    <%- data.body%>
+</body>
+</html>

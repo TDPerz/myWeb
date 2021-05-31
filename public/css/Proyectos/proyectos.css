@@ -1,0 +1,28 @@
+.img-class {
+  width: 100vw;
+  height: 40vh;
+  max-width: 100%;
+}
+
+.container2 {
+  padding: 3% 5% 2%;
+}
+
+.img-card {
+  border-radius: 8px;
+  height: 320px;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list {
+  margin-bottom: 5%;
+}
+
+.back-body {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/*# sourceMappingURL=proyectos.css.map */

@@ -1,0 +1,22 @@
+.background-NavBar{
+    background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+.background-Body{
+    background: url(https://res.cloudinary.com/sekaijk/image/upload/v1621612818/WebSite/BackGroundWeb_shqgwn.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.background-NavBar-active{
+    background-color: rgba($color: #000000, $alpha: 1);
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.fixed-top{
+    transition: all 0.4s;
+}
